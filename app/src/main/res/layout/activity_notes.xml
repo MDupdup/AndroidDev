@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <EditText
+            android:id="@+id/add_note"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#95bde6"
+            android:hint="Saisir une nouvelle note..."
+            android:maxLength="30">
+        </EditText>
+
+        <Button
+            android:id="@+id/submit_note"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:background="#a6352b"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            android:onClick="addItem"/>
+    </FrameLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/liste_notes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+
+

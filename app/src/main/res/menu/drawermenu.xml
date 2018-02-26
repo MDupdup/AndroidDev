@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_hello"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Hello World" />
+    <item
+        android:id="@+id/nav_loremipsum"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Lorem Ipsum Reader" />
+    <item
+        android:id="@+id/nav_lancede"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Lanceur de dés" />
+    <item
+        android:id="@+id/nav_timer"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Minuteur" />
+    <item
+        android:id="@+id/nav_notes"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Pense-bête" />
+    <item
+        android:id="@+id/nav_memo"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Mémo Fragments" />
+    <item
+        android:id="@+id/nav_liseuse"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Liseuse" />
+</menu>

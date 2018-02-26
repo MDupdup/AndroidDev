@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/libelle_note"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/delete_note"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="right"
+            android:background="#a6352b"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            android:onClick="deleteItem"/>
+    </FrameLayout>
+
+
+</LinearLayout>
